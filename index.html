@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+<body class="d-flex align-items-center justify-content-center overflow-hidden">
+  <form>
+    <div class="quiz-container overflow-hidden bg-white rounded-4" id="quiz">
+      <div class="quiz-header px-4 py-5">
+        <h2 class="text-center p-2 mb-4" id="question">Pergunta</h2>
+        <ul class="list-group px-4">
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="answer-a">Resposta</label>
+          </li>
+
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="answer-b">Resposta</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="answer-c">Resposta</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="answer-d">Resposta</label>
+          </li>
+        </ul>
+      </div>
+
+      <button class="text-white d-block border-0 w-100 pe-auto fs-4 p-4">
+        Submit
+      </button>
+    </div>
+  </form>
+  <script src="app.js"></script>
+</body>
+
+</html>
